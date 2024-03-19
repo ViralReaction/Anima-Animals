@@ -11,7 +11,7 @@
 	</supportedVersions>
 	<packageId>vr.AnimaAnimalsCombined</packageId>
 	<description><![CDATA[
-<b>Anima Animals - Community Pack</b> 
+<b>Anima Animals Combined</b> 
 This mod introduces new animals that I was asked to make when the original mod came out on the Steam Workshop.  Currently no alterations have been made.
 ---	
 <b>Features:</b>
@@ -22,12 +22,9 @@ This mod introduces new animals that I was asked to make when the original mod c
    • Anima fox: can haul a lot, nuzzles every 12 hours. 
    • Anima megaspider: quite strong, gives anima berries every 5 days. 
    • Anima muffalo: has decent carrying capacity. 
-   - Vanilla Achievements Expanded support
-<b>Plans:</b>
-   • Wait for a better fork.
 	
 <i>Requires the Royalty expansion for Rimworld.</i>
-Version <color=#FFD800>1.0.0</color>]]></description>
+]]></description>
         <modDependencies>
 		<li>
 			<packageId>Ludeon.RimWorld.Royalty</packageId>
