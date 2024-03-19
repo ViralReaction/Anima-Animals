@@ -39,7 +39,7 @@ namespace AnimaAnimals
                 if (result.IsValid)
                     newThing.mindState.forcedGotoPosition = CellFinder.RandomClosewalkCellNear(result, target, 10);
             }
-            this.SendStandardLetter("LetterAnimaBearPasses".Translate((NamedArgument)pawnKindDef.label).CapitalizeFirst(), "LetterAnimaBearPasses".Translate((NamedArgument)pawnKindDef.label), LetterDefOf.PositiveEvent, parms, (LookTargets)(Thing)newThing);
+            this.SendStandardLetter("LetterLabelAnimaBearPass".Translate((NamedArgument)pawnKindDef.label).CapitalizeFirst(), "LetterAnimaBearPasses".Translate((NamedArgument)pawnKindDef.label), LetterDefOf.PositiveEvent, parms, (LookTargets)(Thing)newThing);
             return true;
         }
         private bool TryFindEntryCell(Map map, out IntVec3 cell) => RCellFinder.TryFindRandomPawnEntryCell(out cell, map, CellFinder.EdgeRoadChance_Animal + 0.2f);

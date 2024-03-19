@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <LetterLabelAnimaFoxesPass>Anima foxes</LetterLabelAnimaFoxesPass>
-  <LetterAnimaFoxesPass>These foxes have mutated for unknown reason. Now they are connected with anima trees and therefore received some unique attributes. Anima foxes are gentle and cute creatures, they often nuzzle.\n\nLegends say that their ears work like receivers of psychic waves, which allows foxes to carry heavy things using telekinesis. \n\nAnima foxes will leave in a few days.</LetterAnimaFoxesPass>
+	<!-- Letter Labels -->
+	<LetterLabelAnimaBearPass>Anima bears</LetterLabelAnimaBearPass>
+	<LetterLabelAnimaFoxesPass>Anima foxes</LetterLabelAnimaFoxesPass>
+	<LetterLabelAnimaMuffalosPass>Anima muffalos</LetterLabelAnimaMuffalosPass>
+	<LetterLabelAnimaMegaspidersPass>Anima megaspiders</LetterLabelAnimaMegaspidersPass>
+	<LetterLabelAnimaThrumboPass>Anima thrumbos</LetterLabelAnimaThrumboPass>
+	<LetterLabelAnimaWargsPass>Anima wargs</LetterLabelAnimaWargsPass>
+	<LetterLabelAnimaYaksPass>Anima yaks</LetterLabelAnimaYaksPass>
+	
+	<!-- Letters -->
+	<LetterAnimaBearPasses>This extremely rare bear has mutated for unknown reasons. Now it is connected with anima trees and has its own little anima tree on its back. The anima bear is capable of using its massive strength and deadly claws to kill almost every living creature. It is quite quick for its size. \n\nLegends say that anima tree on the back of this bear spreads a psychic sooth. \n\nAnima bears will leave in a few days.</LetterAnimaBearPasses>
+	
+	<LetterAnimaFoxesPass>These foxes have mutated for unknown reason. Now they are connected with anima trees and therefore received some unique attributes. Anima foxes are gentle and cute creatures, they often nuzzle.\n\nLegends say that their ears work like receivers of psychic waves, which allows foxes to carry heavy things using telekinesis. \n\nAnima foxes will leave in a few days.</LetterAnimaFoxesPass>
   
-  <LetterLabelAnimaMuffalosPass>Anima muffalos</LetterLabelAnimaMuffalosPass>
-  <LetterAnimaMuffalosPass>These muffalos have mutated for unknown reason. Now they are connected with anima trees and therefore became much stronger and more resilient than regular muffalos. \n\nMaybe if you manage to tame a couple of them, they will serve well for caravanning purpose as they can carry a lot. \n\nAnima muffalos will leave in a few days.</LetterAnimaMuffalosPass>
+	
+	<LetterAnimaMuffalosPass>These muffalos have mutated for unknown reason. Now they are connected with anima trees and therefore became much stronger and more resilient than regular muffalos. \n\nMaybe if you manage to tame a couple of them, they will serve well for caravanning purpose as they can carry a lot. \n\nAnima muffalos will leave in a few days.</LetterAnimaMuffalosPass>
   
-  <LetterLabelAnimaMegaspidersPass>Anima megaspiders</LetterLabelAnimaMegaspidersPass>
-  <LetterAnimaMegaspidersPass>These extremely rare megaspiders have mutated for unknown reason. Now they are connected with anima trees, becoming even stronger and bigger than regular megaspiders. Anima megaspiders are vicious hunters that are capable of tearing their prey apart. \n\nLegends say that there are anima berries growing under elytras of these insectoids. These berries can significantly enhance one's psychic abilities. \n\nAnima megaspiders will leave in a few days.</LetterAnimaMegaspidersPass>
-  
+	
+	<LetterAnimaMegaspidersPass>These extremely rare megaspiders have mutated for unknown reason. Now they are connected with anima trees, becoming even stronger and bigger than regular megaspiders. Anima megaspiders are vicious hunters that are capable of tearing their prey apart. \n\nLegends say that there are anima berries growing under elytras of these insectoids. These berries can significantly enhance one's psychic abilities. \n\nAnima megaspiders will leave in a few days.</LetterAnimaMegaspidersPass>
+	
+	<LetterAnimaThrumboPasses>This one-of-a-kind thrumbo has mutated for unknown reasons. Now it is connected with anima trees and therefore received some unique attributes. The thrumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage, infused with micro-organisms. Its razor-sharp horn is even harder and sharper than the horn of a regular trumbo, it also fetches a huge price.\n\nLegends say that person who eats the heart of this creature will form psylink. \n\nAnima thrumbos will leave in a few days.</LetterAnimaThrumboPasses>
+	
+	<LetterAnimaWargsPass>This warg has mutated for unknown reasons. Now it is connected with anima trees and therefore became bigger, stronger and faster than a regular warg. \n\nMaybe if you manage to tame a couple of them, they will serve well for the defense of the settlement. \n\nAnima wargs will leave in a few days.</LetterAnimaWargsPass>
+	
+	<LetterAnimaYakPass>This yak has mutated for unknown reasons. Now it is connected with anima trees and therefore received some unique attributes. It is a bit bigger than a regular yak and has very expensive, insulating and beautiful wool, though it gives milk much less frequently. This wool can be used to make incredibly warm and luxurious clothing. \n\nLegends say that an interstellar mogul built his business empire upon selling anima yak wool \n\nAnima yaks will leave in a few days.</LetterAnimaYakPass>
+
 </LanguageData>

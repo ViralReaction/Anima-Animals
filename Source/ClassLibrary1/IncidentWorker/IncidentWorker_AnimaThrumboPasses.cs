@@ -39,9 +39,7 @@ namespace AnimaAnimals
                 if (result.IsValid)
                     newThing.mindState.forcedGotoPosition = CellFinder.RandomClosewalkCellNear(result, target, 10);
             }
-            //TaggedString taggedString = TranslatorFormattedStringExtensions.Translate("LetterLabelAnimaThrumboPasses", NamedArgument.op_Implicit(((Def)pawnKindDef).label));
-            // this.SendStandardLetter(((TaggedString)ref taggedString).CapitalizeFirst(), TranslatorFormattedStringExtensions.Translate("LetterAnimaThrumboPasses", NamedArgument.op_Implicit(((Def)pawnKindDef).label)), LetterDefOf.PositiveEvent, parms, LookTargets.op_Implicit((Thing)pawn), Array.Empty<NamedArgument>());
-            this.SendStandardLetter("LetterAnimaThrumboPasses".Translate((NamedArgument)pawnKindDef.label).CapitalizeFirst(), "LetterAnimaThrumboPasses".Translate((NamedArgument)pawnKindDef.label), LetterDefOf.PositiveEvent, parms, (LookTargets)(Thing)newThing);
+            this.SendStandardLetter("LetterLabelAnimaThrumboPass".Translate((NamedArgument)pawnKindDef.label).CapitalizeFirst(), "LetterAnimaThrumboPasses".Translate((NamedArgument)pawnKindDef.label), LetterDefOf.PositiveEvent, parms, (LookTargets)(Thing)newThing);
             return true;
         }
 

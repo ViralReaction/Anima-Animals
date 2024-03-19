@@ -39,7 +39,7 @@ namespace AnimaAnimals
                 if (result.IsValid)
                     pawn.mindState.forcedGotoPosition = CellFinder.RandomClosewalkCellNear(result, target, 10);
             }
-            this.SendStandardLetter("LetterLabelAnimaWargsPass".Translate((NamedArgument)kindDef.label).CapitalizeFirst(), "LetterWargsPass".Translate((NamedArgument)kindDef.label), LetterDefOf.PositiveEvent, parms, (LookTargets)(Thing)pawn);
+            this.SendStandardLetter("LetterLabelAnimaWargsPass".Translate((NamedArgument)kindDef.label).CapitalizeFirst(), "LetterAnimaWargsPass".Translate((NamedArgument)kindDef.label), LetterDefOf.PositiveEvent, parms, (LookTargets)(Thing)pawn);
             return true;
         }
 
