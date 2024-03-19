@@ -20,7 +20,7 @@
           <depth>Inside</depth>
         </li>
         <li>
-          <def>AnimaHeart</def>
+          <def>AnimaThrumboHeart</def>
           <coverage>0.03</coverage>
           <depth>Inside</depth>
         </li>
@@ -365,7 +365,7 @@
   
   <!-- Custom parts -->
   <BodyPartDef>
-    <defName>AnimaHeart</defName>
+    <defName>AnimaThrumboHeart</defName>
     <label>anima heart</label>
     <hitPoints>20</hitPoints>
     <bleedRate>5</bleedRate>
@@ -373,7 +373,7 @@
     <tags>
       <li>BloodPumpingSource</li>
     </tags>
-    <spawnThingOnRemoved>AnimaHeart</spawnThingOnRemoved>
+    <spawnThingOnRemoved>AnimaThrumboHeart</spawnThingOnRemoved>
     <canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
   

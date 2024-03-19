@@ -37,7 +37,7 @@
 	<label>Primal Strength</label>
 	<description>Obtain an anima heart</description>
 		<tracker Class="AchievementsExpanded.ItemTracker">
-			<def>AnimaHeart</def>
+			<def>AnimaThrumboHeart</def>
 			<count>1</count>
 		</tracker>
 	<texPath>Achievements/AnimaHeartAchievement</texPath>
