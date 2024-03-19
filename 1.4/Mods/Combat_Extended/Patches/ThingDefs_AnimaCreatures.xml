@@ -609,7 +609,7 @@
 		</value>
 	</Operation>
 
-	<li Class="PatchOperationReplace">
+	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="AnimaMegaspider"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>10</ArmorRating_Blunt>
@@ -623,7 +623,7 @@
 		</value>
 	</Operation>
 
-	<li Class="PatchOperationReplace">
+	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="AnimaMegaspider"]/race/baseHealthScale</xpath>
 		<value>
 			<baseHealthScale>1.8</baseHealthScale>
