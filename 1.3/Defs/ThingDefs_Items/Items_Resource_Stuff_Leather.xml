@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>AACP_Leather_AnimaFur</defName>
+    <label>anima fur</label>
+    <description>The furry pelt of anima muffalo. Good at temperature regulation in cold climates.</description>
+    <graphicData>
+      <color>(178,206,183)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>4.0</MarketValue>
+      <StuffPower_Insulation_Cold>34</StuffPower_Insulation_Cold>
+    </statBases>
+    <stuffProps>
+      <color>(178,206,183)</color>
+      <commonality>0.000001</commonality>
+      <statFactors>
+        <Beauty>2.0</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="WoolBase">
+    <defName>AACP_WoolAnimaMuffalo</defName>
+    <label>anima muffalo wool</label>
+    <description>Soft, light and provides very good insulation. Anima muffalo wool clothes can keep the body warm even in very cold conditions.</description>
+    <graphicData>
+      <color>(206,239,224)</color>
+    </graphicData>
+    <statBases>
+      <StuffPower_Insulation_Cold>40</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(206,239,224)</color>
+    </stuffProps>
+  </ThingDef>
+
+</Defs>

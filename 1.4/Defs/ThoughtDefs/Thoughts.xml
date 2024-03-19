@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+  
+  <ThoughtDef>
+    <defName>AnimaSaplingSoothe</defName>
+    <workerClass>ThoughtWorker_AnimaSaplingSoothe</workerClass>
+    <effectMultiplyingStat>PsychicSensitivity</effectMultiplyingStat>
+    <stages>
+      <li>
+        <label>anima sapling soothe</label>
+        <description>The anima sapling makes me feel strange, but also very relaxed.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+</Defs>

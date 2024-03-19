@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+
+    <RecipeDef>
+    <defName>Make_RazorfangKnife</defName>
+    <label>make makeshift razorfang knife</label>
+    <description>Make a makeshift razorfang knife.</description>
+    <jobString>Making makeshift razorfang knife.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_MakeBow</soundWorking>
+    <workAmount>6000</workAmount>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Leathers</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>AnimaWargFang</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+	<recipeUsers>
+        <li>CraftingSpot</li>
+    </recipeUsers>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Leathers</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <MeleeWeapon_RazorfangKnife>1</MeleeWeapon_RazorfangKnife>
+    </products>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+  
+  </Defs>

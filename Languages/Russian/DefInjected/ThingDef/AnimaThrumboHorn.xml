@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AnimaThrumboHorn.label>anima thrumbo horn</AnimaThrumboHorn.label>
+  <AnimaThrumboHorn.description>An anima thrumbo's horn. It's razor-sharp, rock-hard. This is a true trophy, as well as a deadly melee weapon. Enhances the wielder's psychic sensitivity and neural heat dissipation, allowing more use of psychic powers.</AnimaThrumboHorn.description>
+  <AnimaThrumboHorn.tools.0.label>point</AnimaThrumboHorn.tools.0.label>
+  <AnimaThrumboHorn.tools.1.label>base</AnimaThrumboHorn.tools.1.label>
+
+  <AnimaWargFang.label>anima warg's razorfang</AnimaWargFang.label>
+  <AnimaWargFang.description>An anima warg's razorfang. It is very durable and sharp.</AnimaWargFang.description>
+  <AnimaWargFang.tools.0.label>point</AnimaWargFang.tools.0.label>
+  <AnimaWargFang.tools.1.label>base</AnimaWargFang.tools.1.label>
+
+  <MeleeWeapon_RazorfangKnife.label>makeshift razorfang knife</MeleeWeapon_RazorfangKnife.label>
+  <MeleeWeapon_RazorfangKnife.description>Makeshift knife made from anima warg's razorfang. The razorfang is simply chipped for sharpness and wrapped with leather as a more comfortable grip.</MeleeWeapon_RazorfangKnife.description>
+  <MeleeWeapon_RazorfangKnife.tools.0.label>handle</MeleeWeapon_RazorfangKnife.tools.0.label>
+  <MeleeWeapon_RazorfangKnife.tools.1.label>blade</MeleeWeapon_RazorfangKnife.tools.1.label>
+  <MeleeWeapon_RazorfangKnife.tools.2.label>point</MeleeWeapon_RazorfangKnife.tools.2.label>
+
+
+</LanguageData>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AnimaThrumbo.label>anima thrumbo</AnimaThrumbo.label>
+  <AnimaThrumbo.description>This one-of-a-kind thrumbo has mutated for unknown reasons. Now it is connected with anima trees and therefore received some unique attributes. The thrumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage, infused with micro-organisms. Its razor-sharp horn is even harder and sharper than the horn of a regular trumbo, it also fetches a huge price.\n\nLegends say that person who eats the heart of this creature will form psylink.</AnimaThrumbo.description>
+  <AnimaThrumbo.tools.0.label>anima horn</AnimaThrumbo.tools.0.label>
+  <AnimaThrumbo.tools.2.label>left foot</AnimaThrumbo.tools.2.label>
+  <AnimaThrumbo.tools.3.label>right foot</AnimaThrumbo.tools.3.label>
+  <AnimaThrumbo.tools.4.label>head</AnimaThrumbo.tools.4.label>
+
+
+  <!-- Anima Warg -->
+
+  <AnimaWarg.label>anima warg</AnimaWarg.label>
+  <AnimaWarg.description>This warg has mutated for unknown reasons. Now it is connected with anima trees and therefore became bigger, stronger and faster than a regular warg. \n\nMaybe if you manage to tame a couple of them, they will serve well for the defense of the settlement.</AnimaWarg.description>
+  <AnimaWarg.tools.0.label>left claw</AnimaWarg.tools.0.label>
+  <AnimaWarg.tools.1.label>right claw</AnimaWarg.tools.1.label>
+  <AnimaWarg.tools.2.label>razorfangs</AnimaWarg.tools.2.label>
+  <AnimaWarg.tools.3.label>head</AnimaWarg.tools.3.label>
+
+  <AnimaBear.label>anima bear</AnimaBear.label>
+  <AnimaBear.description>This extremely rare bear has mutated for unknown reasons. Now it is connected with anima trees and has its own little anima tree on its back. The anima bear is capable of using its massive strength and deadly claws to kill almost every living creature. It is quite quick for its size. \n\nLegends say that anima tree on the back of this bear spreads a psychic sooth.</AnimaBear.description>
+  <AnimaBear.tools.0.label>left claw</AnimaBear.tools.0.label>
+  <AnimaBear.tools.1.label>right claw</AnimaBear.tools.1.label>
+  <AnimaBear.tools.3.label>head</AnimaBear.tools.3.label>
+
+  <AnimaYak.label>anima yak</AnimaYak.label>
+  <AnimaYak.description>This yak has mutated for unknown reasons. Now it is connected with anima trees and therefore received some unique attributes. It is a bit bigger than a regular yak and has very expensive, insulating and beautiful wool, though it gives milk much less frequently. This wool can be used to make incredibly warm and luxurious clothing. \n\nLegends say that an interstellar mogul built his business empire upon selling anima yak wool.</AnimaYak.description>
+  <AnimaYak.tools.1.label>head</AnimaYak.tools.1.label>
+  <AnimaYak.tools.2.label>left hoof</AnimaYak.tools.2.label>
+  <AnimaYak.tools.3.label>right hoof</AnimaYak.tools.3.label>
+
+
+</LanguageData>

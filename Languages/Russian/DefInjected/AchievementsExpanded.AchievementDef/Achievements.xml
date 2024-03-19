@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TameAnimaThrumbo.label>Покорение Легенды</TameAnimaThrumbo.label>
+  <TameAnimaThrumbo.description>Приручить трумбо души</TameAnimaThrumbo.description>
+
+  <KillAnimaThrumbo.label>Убийца Легенд</KillAnimaThrumbo.label>
+  <KillAnimaThrumbo.description>Убить трумбо души</KillAnimaThrumbo.description>
+
+  <EatAnimaHeart.label>Первобытная Сила</EatAnimaHeart.label>
+  <EatAnimaHeart.description>Получить сердце души</EatAnimaHeart.description>
+
+  <YakAchievement.label>Почти Как Тот Бизнесмен</YakAchievement.label>
+  <YakAchievement.description>Продать 500 шерсти яка души одному торговцу за одну торговую операцию</YakAchievement.description>
+
+  <MakeRazorfangKnife.label>Племенной Боец</MakeRazorfangKnife.label>
+  <MakeRazorfangKnife.description>Изготовить импровизированный клыковый нож</MakeRazorfangKnife.description>
+
+  <BuildAnimaSapling.label>Спокойствие</BuildAnimaSapling.label>
+  <BuildAnimaSapling.description>Соорудить саженец души</BuildAnimaSapling.description>
+
+
+</LanguageData>

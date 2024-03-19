@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ModMetaData>
+	<name>Anima Animals Combined (Continued)</name>
+	<author>xrushha, HohenHeizen</author>
+	<url>https://steamcommunity.com/id/xrushha</url>
+    <supportedVersions>
+		<li>1.2</li>
+		<li>1.3</li>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>vr.AnimaAnimalsCombined</packageId>
+	<description><![CDATA[
+<b>Anima Animals - Community Pack</b> 
+This mod introduces new animals that I was asked to make when the original mod came out on the Steam Workshop.  Currently no alterations have been made.
+---	
+<b>Features:</b>
+   • Anima Thrumbo: extremely powerful beast, gives milk and valuable fur. It has a sharp and hard horn and a heart which can be eaten in order to form psylink.
+   • Anima Warg: bigger, stronger and faster than a regular warg. It can serve well as a colony defender, though you can butcher it and receive an anima warg's razorfang which can be used as a weapon or you can make a makeshift razorfang knife from it.
+   • Anima Bear: huge and powerful creature. It has its own anima tree growing on its back. You can use it to spread psychic sooth in range.
+   • Anima Yak: gives very expensive, insulating and beautiful wool. It gives milk much less frequently than a regular yak.
+   • Anima fox: can haul a lot, nuzzles every 12 hours. 
+   • Anima megaspider: quite strong, gives anima berries every 5 days. 
+   • Anima muffalo: has decent carrying capacity. 
+   - Vanilla Achievements Expanded support
+<b>Plans:</b>
+   • Wait for a better fork.
+	
+<i>Requires the Royalty expansion for Rimworld.</i>
+Version <color=#FFD800>1.0.0</color>]]></description>
+        <modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Royalty</packageId>
+			<displayName>Royalty</displayName>
+		</li>
+		</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld.Royalty</li>
+	</loadAfter>
+ </ModMetaData>

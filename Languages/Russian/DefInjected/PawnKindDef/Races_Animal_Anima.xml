@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AnimaThrumbo.label>anima thrumbo</AnimaThrumbo.label>
+  <AnimaThrumbo.labelPlural>anima thrumbos</AnimaThrumbo.labelPlural>
+  <AnimaThrumbo.lifeStages.0.label>anima thrumbo calf</AnimaThrumbo.lifeStages.0.label>
+  <AnimaThrumbo.lifeStages.0.labelPlural>anima thrumbo calves</AnimaThrumbo.lifeStages.0.labelPlural>
+  <AnimaThrumbo.lifeStages.0.labelMale>male anima thrumbo calf</AnimaThrumbo.lifeStages.0.labelMale>
+  <AnimaThrumbo.lifeStages.0.labelMalePlural>male anima thrumbo calves</AnimaThrumbo.lifeStages.0.labelMalePlural>
+  <AnimaThrumbo.lifeStages.0.labelFemale>female anima thrumbo calf</AnimaThrumbo.lifeStages.0.labelFemale>
+  <AnimaThrumbo.lifeStages.0.labelFemalePlural>female anima thrumbo calves</AnimaThrumbo.lifeStages.0.labelFemalePlural>
+  <AnimaThrumbo.lifeStages.1.label>anima thrumbo</AnimaThrumbo.lifeStages.1.label>
+  <AnimaThrumbo.lifeStages.1.labelPlural>anima thrumbo</AnimaThrumbo.lifeStages.1.labelPlural>
+  <AnimaThrumbo.lifeStages.1.labelMale>male anima thrumbo</AnimaThrumbo.lifeStages.1.labelMale>
+  <AnimaThrumbo.lifeStages.1.labelMalePlural>male anima thrumbos</AnimaThrumbo.lifeStages.1.labelMalePlural>
+  <AnimaThrumbo.lifeStages.1.labelFemale>female anima thrumbo</AnimaThrumbo.lifeStages.1.labelFemale>
+  <AnimaThrumbo.lifeStages.1.labelFemalePlural>female anima thrumbos</AnimaThrumbo.lifeStages.1.labelFemalePlural>
+  <AnimaThrumbo.lifeStages.2.label>anima thrumbo</AnimaThrumbo.lifeStages.2.label>
+  <AnimaThrumbo.lifeStages.2.labelPlural>anima thrumbo</AnimaThrumbo.lifeStages.2.labelPlural>
+  <AnimaThrumbo.lifeStages.2.labelMale>male anima thrumbo</AnimaThrumbo.lifeStages.2.labelMale>
+  <AnimaThrumbo.lifeStages.2.labelMalePlural>male anima thrumbos</AnimaThrumbo.lifeStages.2.labelMalePlural>
+  <AnimaThrumbo.lifeStages.2.labelFemale>female anima thrumbo</AnimaThrumbo.lifeStages.2.labelFemale>
+  <AnimaThrumbo.lifeStages.2.labelFemalePlural>female anima thrumbos</AnimaThrumbo.lifeStages.2.labelFemalePlural>
+  <AnimaThrumbo.labelMale>male anima thrumbo</AnimaThrumbo.labelMale>
+  <AnimaThrumbo.labelMalePlural>male anima thrumbos</AnimaThrumbo.labelMalePlural>
+  <AnimaThrumbo.labelFemale>female anima thrumbo</AnimaThrumbo.labelFemale>
+  <AnimaThrumbo.labelFemalePlural>female anima thrumbos</AnimaThrumbo.labelFemalePlural>
+
+
+  <!-- Anima Warg -->
+
+  <AnimaWarg.label>anima warg</AnimaWarg.label>
+  <AnimaWarg.labelPlural>anima wargs</AnimaWarg.labelPlural>
+  <AnimaWarg.lifeStages.0.label>anima warg puppy</AnimaWarg.lifeStages.0.label>
+  <AnimaWarg.lifeStages.0.labelPlural>anima warg puppies</AnimaWarg.lifeStages.0.labelPlural>
+  <AnimaWarg.lifeStages.0.labelMale>male anima warg puppy</AnimaWarg.lifeStages.0.labelMale>
+  <AnimaWarg.lifeStages.0.labelMalePlural>male anima warg puppies</AnimaWarg.lifeStages.0.labelMalePlural>
+  <AnimaWarg.lifeStages.0.labelFemale>female anima warg puppy</AnimaWarg.lifeStages.0.labelFemale>
+  <AnimaWarg.lifeStages.0.labelFemalePlural>female anima warg puppies</AnimaWarg.lifeStages.0.labelFemalePlural>
+  <AnimaWarg.lifeStages.1.label>anima warg</AnimaWarg.lifeStages.1.label>
+  <AnimaWarg.lifeStages.1.labelPlural>anima warg</AnimaWarg.lifeStages.1.labelPlural>
+  <AnimaWarg.lifeStages.1.labelMale>male anima warg</AnimaWarg.lifeStages.1.labelMale>
+  <AnimaWarg.lifeStages.1.labelMalePlural>male anima wargs</AnimaWarg.lifeStages.1.labelMalePlural>
+  <AnimaWarg.lifeStages.1.labelFemale>female anima warg</AnimaWarg.lifeStages.1.labelFemale>
+  <AnimaWarg.lifeStages.1.labelFemalePlural>female anima wargs</AnimaWarg.lifeStages.1.labelFemalePlural>
+  <AnimaWarg.lifeStages.2.label>anima warg</AnimaWarg.lifeStages.2.label>
+  <AnimaWarg.lifeStages.2.labelPlural>anima warg</AnimaWarg.lifeStages.2.labelPlural>
+  <AnimaWarg.lifeStages.2.labelMale>male anima warg</AnimaWarg.lifeStages.2.labelMale>
+  <AnimaWarg.lifeStages.2.labelMalePlural>male anima wargs</AnimaWarg.lifeStages.2.labelMalePlural>
+  <AnimaWarg.lifeStages.2.labelFemale>female anima warg</AnimaWarg.lifeStages.2.labelFemale>
+  <AnimaWarg.lifeStages.2.labelFemalePlural>female anima wargs</AnimaWarg.lifeStages.2.labelFemalePlural>
+  <AnimaWarg.labelMale>male anima warg</AnimaWarg.labelMale>
+  <AnimaWarg.labelMalePlural>male anima wargs</AnimaWarg.labelMalePlural>
+  <AnimaWarg.labelFemale>female anima warg</AnimaWarg.labelFemale>
+  <AnimaWarg.labelFemalePlural>female anima wargs</AnimaWarg.labelFemalePlural>
+
+  <AnimaBear.label>anima bear</AnimaBear.label>
+  <AnimaBear.labelPlural>anima bears</AnimaBear.labelPlural>
+  <AnimaBear.lifeStages.0.label>anima bear</AnimaBear.lifeStages.0.label>
+  <AnimaBear.lifeStages.0.labelPlural>anima bear</AnimaBear.lifeStages.0.labelPlural>
+  <AnimaBear.lifeStages.0.labelMale>male anima bear</AnimaBear.lifeStages.0.labelMale>
+  <AnimaBear.lifeStages.0.labelMalePlural>male anima bears</AnimaBear.lifeStages.0.labelMalePlural>
+  <AnimaBear.lifeStages.0.labelFemale>female anima bear</AnimaBear.lifeStages.0.labelFemale>
+  <AnimaBear.lifeStages.0.labelFemalePlural>female anima bears</AnimaBear.lifeStages.0.labelFemalePlural>
+  <AnimaBear.lifeStages.1.label>anima bear</AnimaBear.lifeStages.1.label>
+  <AnimaBear.lifeStages.1.labelPlural>anima bear</AnimaBear.lifeStages.1.labelPlural>
+  <AnimaBear.lifeStages.1.labelMale>male anima bear</AnimaBear.lifeStages.1.labelMale>
+  <AnimaBear.lifeStages.1.labelMalePlural>male anima bears</AnimaBear.lifeStages.1.labelMalePlural>
+  <AnimaBear.lifeStages.1.labelFemale>female anima bear</AnimaBear.lifeStages.1.labelFemale>
+  <AnimaBear.lifeStages.1.labelFemalePlural>female anima bears</AnimaBear.lifeStages.1.labelFemalePlural>
+  <AnimaBear.lifeStages.2.label>anima bear</AnimaBear.lifeStages.2.label>
+  <AnimaBear.lifeStages.2.labelPlural>anima bear</AnimaBear.lifeStages.2.labelPlural>
+  <AnimaBear.lifeStages.2.labelMale>male anima bear</AnimaBear.lifeStages.2.labelMale>
+  <AnimaBear.lifeStages.2.labelMalePlural>male anima bears</AnimaBear.lifeStages.2.labelMalePlural>
+  <AnimaBear.lifeStages.2.labelFemale>female anima bear</AnimaBear.lifeStages.2.labelFemale>
+  <AnimaBear.lifeStages.2.labelFemalePlural>female anima bears</AnimaBear.lifeStages.2.labelFemalePlural>
+  <AnimaBear.labelMale>male anima bear</AnimaBear.labelMale>
+  <AnimaBear.labelMalePlural>male anima bears</AnimaBear.labelMalePlural>
+  <AnimaBear.labelFemale>female anima bear</AnimaBear.labelFemale>
+  <AnimaBear.labelFemalePlural>female anima bears</AnimaBear.labelFemalePlural>
+
+  <AnimaYak.label>anima yak</AnimaYak.label>
+  <AnimaYak.labelPlural>anima yaks</AnimaYak.labelPlural>
+  <AnimaYak.lifeStages.0.label>anima yak calf</AnimaYak.lifeStages.0.label>
+  <AnimaYak.lifeStages.0.labelPlural>anima yak calves</AnimaYak.lifeStages.0.labelPlural>
+  <AnimaYak.lifeStages.0.labelMale>male anima yak calf</AnimaYak.lifeStages.0.labelMale>
+  <AnimaYak.lifeStages.0.labelMalePlural>male anima yak calves</AnimaYak.lifeStages.0.labelMalePlural>
+  <AnimaYak.lifeStages.0.labelFemale>female anima yak calf</AnimaYak.lifeStages.0.labelFemale>
+  <AnimaYak.lifeStages.0.labelFemalePlural>female anima yak calves</AnimaYak.lifeStages.0.labelFemalePlural>
+  <AnimaYak.lifeStages.1.label>anima yak</AnimaYak.lifeStages.1.label>
+  <AnimaYak.lifeStages.1.labelPlural>anima yak</AnimaYak.lifeStages.1.labelPlural>
+  <AnimaYak.lifeStages.1.labelMale>anima yak</AnimaYak.lifeStages.1.labelMale>
+  <AnimaYak.lifeStages.1.labelMalePlural>male anima yaks</AnimaYak.lifeStages.1.labelMalePlural>
+  <AnimaYak.lifeStages.1.labelFemale>female anima yak</AnimaYak.lifeStages.1.labelFemale>
+  <AnimaYak.lifeStages.1.labelFemalePlural>female anima yaks</AnimaYak.lifeStages.1.labelFemalePlural>
+  <AnimaYak.lifeStages.2.label>anima yak</AnimaYak.lifeStages.2.label>
+  <AnimaYak.lifeStages.2.labelPlural>anima yak</AnimaYak.lifeStages.2.labelPlural>
+  <AnimaYak.lifeStages.2.labelMale>anima yak</AnimaYak.lifeStages.2.labelMale>
+  <AnimaYak.lifeStages.2.labelMalePlural>male anima yaks</AnimaYak.lifeStages.2.labelMalePlural>
+  <AnimaYak.lifeStages.2.labelFemale>female anima yak</AnimaYak.lifeStages.2.labelFemale>
+  <AnimaYak.lifeStages.2.labelFemalePlural>female anima yaks</AnimaYak.lifeStages.2.labelFemalePlural>
+  <AnimaYak.labelMale>anima yak</AnimaYak.labelMale>
+  <AnimaYak.labelMalePlural>anima yaks</AnimaYak.labelMalePlural>
+  <AnimaYak.labelFemale>female anima yak</AnimaYak.labelFemale>
+  <AnimaYak.labelFemalePlural>female anima yaks</AnimaYak.labelFemalePlural>
+
+
+</LanguageData>

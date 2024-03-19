@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <IncidentDef>
+    <defName>AnimaMegaspidersPass</defName>
+    <label>anima megaspiders pass</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>AnimaAnimalsCommunityPack.Events.IncidentWorker_AnimaMegaspidersPass</workerClass>
+    <baseChance>0.1</baseChance>
+    <minRefireDays>60</minRefireDays>
+    <letterLabel>Anima megaspiders</letterLabel>
+    <letterText>These extremely rare megaspiders have mutated for unknown reasons. Now they are connected with anima trees, becoming stronger and bigger than regular megaspiders. Anima megaspiders are vicious hunters that are capable of tearing their prey apart. \n\nLegends say that there are anima berries growing under elytras of these insectoids. These berries can significantly enhance one's psychic abilities. \n\nAnima megaspiders will leave in a few days.</letterText>
+  </IncidentDef>
+  
+  <IncidentDef>
+    <defName>AnimaFoxesPass</defName>
+    <label>anima foxes pass</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>AnimaAnimalsCommunityPack.Events.IncidentWorker_AnimaFoxesPass</workerClass>
+    <baseChance>0.2</baseChance>
+    <minRefireDays>45</minRefireDays>
+    <letterLabel>Anima foxes</letterLabel>
+    <letterText>These foxes have mutated for unknown reasons. Now they are connected with anima trees, receiving some unique attributes. Anima foxes are gentle and cute creatures, they often nuzzle.\n\nLegends say that their ears work like receivers of psychic waves, which allows foxes to carry heavy things using telekinesis. \n\nAnima foxes will leave in a few days.</letterText>
+  </IncidentDef>
+  
+  <IncidentDef>
+    <defName>AnimaMufffalosPass</defName>
+    <label>anima muffalos pass</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>AnimaAnimalsCommunityPack.Events.IncidentWorker_AnimaMuffalosPass</workerClass>
+    <baseChance>0.25</baseChance>
+    <minRefireDays>30</minRefireDays>
+    <letterLabel>Anima muffalos</letterLabel>
+    <letterText>These muffalos have mutated for unknown reasons. Now they are connected with anima trees, becoming much stronger and more resilient than regular muffalos. \n\nMaybe if you manage to tame a couple of them, they will serve well for caravanning purpose as they can carry a lot. \n\nAnima muffalos will leave in a few days.</letterText>
+  </IncidentDef>
+</Defs>

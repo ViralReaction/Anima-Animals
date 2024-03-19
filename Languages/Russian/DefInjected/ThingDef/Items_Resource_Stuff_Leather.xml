@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Leather_AnimaThrumbo.label>anima thrumbofur</Leather_AnimaThrumbo.label>
+  <Leather_AnimaThrumbo.description>Furry pelt of an anima thrumbo. Adorable-looking, extraordinarily durable. Used for the highest-quality crafts for its incredible insulation and strength.</Leather_AnimaThrumbo.description>
+
+  <Leather_OPAnimaWarg.label>anima warg skin</Leather_OPAnimaWarg.label>
+  <Leather_OPAnimaWarg.description>A soft furry pelt harvested from an anima warg. It is quite difficult to pierce and insulates well against cold.</Leather_OPAnimaWarg.description>
+
+  <Leather_AnimaBear.label>anima bearskin</Leather_AnimaBear.label>
+  <Leather_AnimaBear.description>The strong furry leather of a bear, infused with some micro-organisms that enhance it. Compared to most leather, it is quite tougher and a better at all kinds of temperature regulation.</Leather_AnimaBear.description>
+
+  <Leather_AnimaYak.label>anima yak leather</Leather_AnimaYak.label>
+
+  <WoolAnimaYak.label>anima yak wool</WoolAnimaYak.label>
+  <WoolAnimaYak.description>Very expensive, insulating and beautiful wool of anima yak.</WoolAnimaYak.description>
+
+
+</LanguageData>

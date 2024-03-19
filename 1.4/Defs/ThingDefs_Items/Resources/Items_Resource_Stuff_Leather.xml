@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_AnimaThrumbo</defName>
+    <label>anima thrumbofur</label>
+    <description>Furry pelt of an anima thrumbo. Adorable-looking, extraordinarily durable. Used for the highest-quality crafts for its incredible insulation and strength.</description>
+    <graphicData>
+      <color>(180.3, 215.5, 202.4)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>18.0</MarketValue>
+      <StuffPower_Armor_Sharp>2.60</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.65</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>46</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>34</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(180.3, 215.5, 202.4)</color>
+      <commonality>0.0001</commonality>
+      <statFactors>
+        <MaxHitPoints>2.0</MaxHitPoints>
+        <Beauty>12</Beauty>
+      </statFactors>
+	  <statOffsets>
+	    <PsychicSensitivityOffset>0.1</PsychicSensitivityOffset>
+		<PsychicEntropyRecoveryRate>0.05</PsychicEntropyRecoveryRate>
+	  </statOffsets>
+    </stuffProps>
+  </ThingDef>
+  
+   <ThingDef ParentName="LeatherBase">
+    <defName>Leather_OPAnimaWarg</defName>
+    <label>anima warg skin</label>
+    <description>A soft furry pelt harvested from an anima warg. It is quite difficult to pierce and insulates well against cold.</description>
+    <graphicData>
+      <color>(194, 199, 185)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>6.0</MarketValue>
+      <StuffPower_Armor_Sharp>1.5</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>35</StuffPower_Insulation_Cold>
+    </statBases>
+    <stuffProps>
+      <color>(194,199,185)</color>
+      <commonality>0.0001</commonality>
+      <statFactors>
+        <Beauty>4.0</Beauty>
+      </statFactors>
+	  <statOffsets>
+	    <PsychicSensitivityOffset>0.07</PsychicSensitivityOffset>
+		<PsychicEntropyRecoveryRate>0.03</PsychicEntropyRecoveryRate>
+	  </statOffsets>
+    </stuffProps>
+  </ThingDef>
+  
+   <ThingDef ParentName="LeatherBase">
+    <defName>Leather_AnimaBear</defName>
+    <label>anima bearskin</label>
+    <description>The strong furry leather of a bear, infused with some micro-organisms that enhance it. Compared to most leather, it is quite tougher and a better at all kinds of temperature regulation.</description>
+    <graphicData>
+      <color>(174,202,176)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>10</MarketValue>
+      <StuffPower_Armor_Sharp>1.4</StuffPower_Armor_Sharp>
+	  <StuffPower_Armor_Blunt>0.2</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>25</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>25</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(174,202,176)</color>
+      <commonality>0.0001</commonality>
+      <statFactors>
+        <Beauty>6.0</Beauty>
+      </statFactors>
+	  <statOffsets>
+	    <PsychicSensitivityOffset>0.08</PsychicSensitivityOffset>
+		<PsychicEntropyRecoveryRate>0.04</PsychicEntropyRecoveryRate>
+	  </statOffsets>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_AnimaYak</defName>
+    <label>anima yak leather</label>
+    <graphicData>
+      <color>(106,140,128)</color>
+    </graphicData>
+    <stuffProps>
+      <color>(106,140,128)</color>
+      <commonality>0.0001</commonality>
+	  <statOffsets>
+	    <PsychicSensitivityOffset>0.05</PsychicSensitivityOffset>
+		<PsychicEntropyRecoveryRate>0.02</PsychicEntropyRecoveryRate>
+	  </statOffsets>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>WoolAnimaYak</defName>
+    <label>anima yak wool</label>
+    <description>Very expensive, insulating and beautiful wool of anima yak.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Wool</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(106,140,128)</color>
+    </graphicData>
+    <stackLimit>100</stackLimit>
+    <statBases>
+      <StuffPower_Insulation_Cold>60</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>30</StuffPower_Insulation_Heat>
+      <MaxHitPoints>90</MaxHitPoints>
+      <MarketValue>12</MarketValue>
+      <Mass>0.028</Mass>
+      <Flammability>0.4</Flammability>
+      <DeteriorationRate>3.4</DeteriorationRate>
+      <StuffPower_Armor_Sharp>0.36</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.00</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.10</StuffPower_Armor_Heat>
+    </statBases>
+    <burnableByRecipe>true</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <stuffProps>
+      <color>(106,140,128)</color>
+      <statFactors>
+        <Flammability>1.7</Flammability>
+        <Beauty>10</Beauty>
+      </statFactors>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.0001</commonality>
+	  <statOffsets>
+	    <PsychicSensitivityOffset>0.06</PsychicSensitivityOffset>
+		<PsychicEntropyRecoveryRate>0.03</PsychicEntropyRecoveryRate>
+	  </statOffsets>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+  </ThingDef>
+  
+</Defs>

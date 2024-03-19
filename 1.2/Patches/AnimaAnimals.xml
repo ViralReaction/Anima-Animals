@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Anima Animals</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationReplace">
+
+					<xpath>/Defs/AchievementsExpanded.AchievementDef[defName = "TameAnimaFox"]/tab</xpath>
+					<value>
+                        <tab>AnimaAnimals</tab>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+
+					<xpath>/Defs/AchievementsExpanded.AchievementDef[defName = "TameAnimaMuffalo"]/tab</xpath>
+					<value>
+                        <tab>AnimaAnimals</tab>
+					</value>
+				</li>
+				
+				
+				<li Class="PatchOperationReplace">
+
+					<xpath>/Defs/AchievementsExpanded.AchievementDef[defName = "TameAnimaMegaspider"]/tab</xpath>
+					<value>
+                        <tab>AnimaAnimals</tab>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+
+					<xpath>/Defs/AchievementsExpanded.AchievementDef[defName = "ObtainAnimaBerry"]/tab</xpath>
+					<value>
+                        <tab>AnimaAnimals</tab>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationRemove">
+
+					<xpath>/Defs/AchievementsExpanded.AchievementTabDef[defName = "AACP_AnimaAnimalsCommunity"]</xpath>
+					
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

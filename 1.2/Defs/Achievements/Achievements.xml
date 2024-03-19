@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<AchievementsExpanded.AchievementDef>
+	<defName>TameAnimaFox</defName>
+	<label>What a Cutie!</label>
+	<description>Tame an anima fox</description>
+		<tracker Class="AchievementsExpanded.KindDefTracker">
+			<kindDefs>
+				<li>
+					<key>AACP_AnimaFox</key>
+					<value>1</value>
+				</li>
+			</kindDefs>
+		</tracker>
+	<texPath>Achievements/AnimaAchievementFox</texPath>
+	<points>20</points>
+	<tab>AACP_AnimaAnimalsCommunity</tab>
+</AchievementsExpanded.AchievementDef>
+
+<AchievementsExpanded.AchievementDef>
+	<defName>TameAnimaMuffalo</defName>
+	<label>Moo!</label>
+	<description>Tame an anima muffalo</description>
+		<tracker Class="AchievementsExpanded.KindDefTracker">
+			<kindDefs>
+				<li>
+					<key>AACP_AnimaMuffalo</key>
+					<value>1</value>
+				</li>
+			</kindDefs>
+		</tracker>
+	<texPath>Achievements/AnimaAchievementMuffalo</texPath>
+	<points>15</points>
+	<tab>AACP_AnimaAnimalsCommunity</tab>
+</AchievementsExpanded.AchievementDef>
+
+<AchievementsExpanded.AchievementDef>
+	<defName>TameAnimaMegaspider</defName>
+	<label>Natural Experiment</label>
+	<description>Tame an anima megaspider</description>
+	<tracker Class="AchievementsExpanded.KillTracker">
+	    <kindDef>AACP_AnimaMegaspider</kindDef>
+	    <count>1</count>
+	</tracker>
+	<texPath>Achievements/AnimaAchievementMegaspider</texPath>
+	<points>30</points>
+	<tab>AACP_AnimaAnimalsCommunity</tab>
+</AchievementsExpanded.AchievementDef>
+
+<AchievementsExpanded.AchievementDef>
+	<defName>ObtainAnimaBerry</defName>
+	<label>What are those berries?</label>
+	<description>Obtain an anima berry</description>
+		<tracker Class="AchievementsExpanded.ItemTracker">
+			<def>AACP_AnimaBerry</def>
+			<count>1</count>
+		</tracker>
+	<texPath>Achievements/AnimaAchievementBerry</texPath>
+	<points>10</points>
+	<tab>AACP_AnimaAnimalsCommunity</tab>
+</AchievementsExpanded.AchievementDef>
+
+</Defs>
