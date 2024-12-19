@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima_Animals\1.5\Assemblies\AnimaAnimals.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima_Animals\1.5\Assemblies\AnimaAnimals.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima_Animals\Source\ClassLibrary1\obj\Release\AnimaAnimals.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima_Animals\Source\ClassLibrary1\obj\Release\AnimaAnimals.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima_Animals\Source\ClassLibrary1\obj\Release\AnimaAnimals.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima_Animals\Source\ClassLibrary1\obj\Release\AnimaAnimals.pdb

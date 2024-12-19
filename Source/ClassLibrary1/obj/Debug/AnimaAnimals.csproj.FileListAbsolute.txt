@@ -5,3 +5,10 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Animals\Source
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Animals\Source\ClassLibrary1\obj\Debug\AnimaAnimals.csproj.CopyComplete
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Animals\Source\ClassLibrary1\obj\Debug\AnimaAnimals.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima Animals\Source\ClassLibrary1\obj\Debug\AnimaAnimals.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima_Animals\1.5\Assemblies\AnimaAnimals.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima_Animals\1.5\Assemblies\AnimaAnimals.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima_Animals\Source\ClassLibrary1\obj\Debug\AnimaAnimals.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima_Animals\Source\ClassLibrary1\obj\Debug\AnimaAnimals.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima_Animals\Source\ClassLibrary1\obj\Debug\AnimaAni.8A0B9CE6.Up2Date
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima_Animals\Source\ClassLibrary1\obj\Debug\AnimaAnimals.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Anima_Animals\Source\ClassLibrary1\obj\Debug\AnimaAnimals.pdb

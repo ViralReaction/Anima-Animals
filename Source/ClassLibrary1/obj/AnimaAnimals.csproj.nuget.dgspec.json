@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Anima Animals\\Source\\ClassLibrary1\\AnimaAnimals.csproj": {}
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Anima_Animals\\Source\\ClassLibrary1\\AnimaAnimals.csproj": {}
   },
   "projects": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Anima Animals\\Source\\ClassLibrary1\\AnimaAnimals.csproj": {
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Anima_Animals\\Source\\ClassLibrary1\\AnimaAnimals.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Anima Animals\\Source\\ClassLibrary1\\AnimaAnimals.csproj",
+        "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Anima_Animals\\Source\\ClassLibrary1\\AnimaAnimals.csproj",
         "projectName": "AnimaAnimals",
-        "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Anima Animals\\Source\\ClassLibrary1\\AnimaAnimals.csproj",
+        "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Anima_Animals\\Source\\ClassLibrary1\\AnimaAnimals.csproj",
         "packagesPath": "C:\\Users\\Enurta\\.nuget\\packages\\",
-        "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Anima Animals\\Source\\ClassLibrary1\\obj\\",
+        "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Anima_Animals\\Source\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -22,17 +22,36 @@
           "net48"
         ],
         "sources": {
-          "C:\\Games\\Rimworld C# Packages": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/packages/MonoMod.Core/": {}
         },
         "frameworks": {
           "net48": {
             "projectReferences": {}
           }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net48": {}
+        "net48": {
+          "dependencies": {
+            "Krafs.Publicizer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Krafs.Rimworld.Ref": {
+              "target": "Package",
+              "version": "[1.5.4297, )"
+            }
+          }
+        }
       },
       "runtimes": {
         "win": {

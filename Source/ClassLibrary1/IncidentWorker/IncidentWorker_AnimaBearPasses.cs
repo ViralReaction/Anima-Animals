@@ -1,9 +1,4 @@
 ﻿using RimWorld;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
 using Verse;
 
@@ -11,7 +6,7 @@ namespace AnimaAnimals
 {
     public class IncidentWorker_AnimaBearPasses : IncidentWorker
     {
-        protected virtual bool CanFireNowSub(IncidentParms parms)
+        protected override bool CanFireNowSub(IncidentParms parms)
         {
             Map target = (Map)parms.target;
             return !target.gameConditionManager.ConditionIsActive(GameConditionDefOf.ToxicFallout) && target.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDefOf.AnimaBear) && this.TryFindEntryCell(target, out IntVec3 _);
