@@ -25,7 +25,15 @@
 		<li>1.5</li>
 		<li IfModActive="ceteam.combatextended,ceteam.combatextended_steam">1.5/Mods/Combat_Extended</li>
 		<li IfModActive="spoonshortage.adogsaidanimalprosthetics">1.5/Mods/ADogSaid</li>
-		<li IfModActive="oskarpotocki.vanillafactionsexpanded.core" IfModNotActive="ceteam.combatextended">1.4/Mods/VEF</li>
+		<li IfModActive="oskarpotocki.vanillafactionsexpanded.core" IfModNotActive="ceteam.combatextended">1.5/Mods/VEF</li>
 	</v1.5>
+	
+	<v1.6>
+		<li>/</li>
+		<li>1.6</li>
+		<li IfModActive="ceteam.combatextended,ceteam.combatextended_steam">1.6/Mods/Combat_Extended</li>
+		<li IfModActive="spoonshortage.adogsaidanimalprosthetics">1.6/Mods/ADogSaid</li>
+		<li IfModActive="oskarpotocki.vanillafactionsexpanded.core" IfModNotActive="ceteam.combatextended">1.6/Mods/VEF</li>
+	</v1.6>
 
 </loadFolders>

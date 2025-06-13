@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BaseInsect">
+		<defName>AnimaMegaspider</defName>
+		<label>anima megaspider</label>
+		<description>This extremely rare megaspider has mutated for unknown reasons. Now it is connected with anima trees, becoming stronger and bigger than regular megaspiders. Anima megaspiders are vicious hunters that are capable of tearing their prey apart. \n\nLegends state that there are anima berries growing under elytras of this insectoid. These berries can significantly enhance one's psychic abilities.</description>
+		<statBases>
+			<MoveSpeed>3.65</MoveSpeed>
+			<ComfyTemperatureMin>-45</ComfyTemperatureMin>
+			<MarketValue>2400</MarketValue>
+			<LeatherAmount>0</LeatherAmount>
+			<ArmorRating_Blunt>0.34</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.46</ArmorRating_Sharp>
+			<Wildness>0.98</Wildness>
+		</statBases>
+		<uiIconScale>1.15</uiIconScale>
+		<tradeability>Sellable</tradeability>
+		<tools>
+			<li>
+				<label>head claw</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2.5</cooldownTime>
+				<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>BeetleLikeWithClaw</body>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<baseHungerRate>0.3</baseHungerRate>
+			<baseBodySize>1.4</baseBodySize>
+			<baseHealthScale>2.8</baseHealthScale>
+			<trainability>Advanced</trainability>
+			<gestationPeriodDays>12</gestationPeriodDays>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<lifeExpectancy>24</lifeExpectancy>
+			<manhunterOnTameFailChance>0.8</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>1.0</manhunterOnDamageChance>
+			<lifeStageAges>
+				<li>
+					<def>EusocialInsectLarva</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectJuvenile</def>
+					<minAge>0.03</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectAdult</def>
+					<minAge>0.2</minAge>
+					<soundWounded>Pawn_BigInsect_Pain</soundWounded>
+					<soundDeath>Pawn_BigInsect_Death</soundDeath>
+					<soundCall>Pawn_BigInsect_Call</soundCall>
+					<soundAngry>Pawn_BigInsect_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags inherit="False">
+			<li>AnimaAnimalComunity</li>
+			<li>AnimalExotic</li>
+		</tradeTags>
+		<comps>
+			<li Class="CompProperties_Milkable">
+				<milkDef>AnimaBerry</milkDef>
+				<milkIntervalDays>5</milkIntervalDays>
+				<milkAmount>2</milkAmount>
+				<milkFemaleOnly>false</milkFemaleOnly>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AnimaMegaspider</defName>
+		<label>anima megaspider</label>
+		<race>AnimaMegaspider</race>
+		<combatPower>150</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>0.50</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Pawn/AnimaMegaSpider/AnimaMegaSpider</texPath>
+					<drawSize>1.4</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+					<drawSize>1.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Pawn/AnimaMegaSpider/AnimaMegaSpider</texPath>
+					<drawSize>1.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+					<drawSize>1.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Pawn/AnimaMegaSpider/AnimaMegaSpider</texPath>
+					<drawSize>2.8</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.7, 0.43)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+					<drawSize>2.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>

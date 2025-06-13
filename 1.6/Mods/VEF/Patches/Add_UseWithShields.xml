@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>/Defs/ThingDef[defName="AnimaThrumboHorn"]</xpath>
+		<value>
+			<li Class="VEF.Things.ThingDefExtension">
+				<usableWithShields>true</usableWithShields>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>/Defs/ThingDef[defName="AnimaWargFang"]</xpath>
+		<value>
+			<li Class="VEF.Things.ThingDefExtension">
+				<usableWithShields>true</usableWithShields>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>/Defs/ThingDef[defName="MeleeWeapon_RazorfangKnife"]</xpath>
+		<value>
+			<li Class="VEF.Things.ThingDefExtension">
+				<usableWithShields>true</usableWithShields>
+			</li>
+		</value>
+	</Operation>
+
+</Patch>

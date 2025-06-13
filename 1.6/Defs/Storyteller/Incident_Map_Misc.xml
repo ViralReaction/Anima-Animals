@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <IncidentDef>
+    <defName>AnimaThrumboPasses</defName>
+    <label>anima thrumbo passes</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>AnimaAnimals.IncidentWorker_AnimaThrumboPasses</workerClass>
+    <baseChance>0.2</baseChance>
+    <minRefireDays>60</minRefireDays>
+    <letterLabel>Anima thrumbo</letterLabel>
+    <letterText>This one-of-a-kind thrumbo has mutated for unknown reasons. Now it is connected with anima trees and therefore received some unique attributes. The thrumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage, infused with bioluminescent micro-organisms. Its razor-sharp horn is even harder and sharper than the horn of a regular trumbo, it also fetches a huge price.\n\nLegends say that person who eats the heart of this creature will form psylink. \n\nAnima thrumbo will leave in a few days.</letterText>
+  </IncidentDef>
+  
+   <IncidentDef>
+    <defName>AnimaWargsPass</defName>
+    <label>anima wargs pass</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>AnimaAnimals.IncidentWorker_AnimaWargsPass</workerClass>
+    <baseChance>0.4</baseChance>
+    <minRefireDays>30</minRefireDays>
+    <letterLabel>Anima wargs</letterLabel>
+    <letterText>These wargs have mutated for unknown reasons. Now they are connected with anima trees and therefore became bigger, stronger and faster than regular wargs. \n\nMaybe if you manage to tame a couple of them, they will serve well for the defense of the settlement. They also have quite sharp fangs. \n\nAnima wargs will leave in a few days.</letterText>
+  </IncidentDef>
+  
+   <IncidentDef>
+    <defName>AnimaBearPasses</defName>
+    <label>anima bear passes</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>AnimaAnimals.IncidentWorker_AnimaBearPasses</workerClass>
+    <baseChance>0.3</baseChance>
+    <minRefireDays>45</minRefireDays>
+    <letterLabel>Anima bear</letterLabel>
+    <letterText>This extremly rare bear has mutated for unknown reasons. Now it is connected with anima trees and has its own little anima tree on its back. The anima bear is capable of using its massive strength and deadly claws to kill almost every living creature. It is quite quick for its size. \n\nLegends say that anima tree on the back of this bear spreads a psychic sooth. \n\nAnima bear will leave in a few days.</letterText>
+  </IncidentDef>
+  
+   <IncidentDef>
+    <defName>AnimaYaksPass</defName>
+    <label>anima yaks pass</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>AnimaAnimals.IncidentWorker_AnimaYaksPass</workerClass>
+    <baseChance>0.5</baseChance>
+    <minRefireDays>30</minRefireDays>
+    <letterLabel>Anima yaks</letterLabel>
+    <letterText>These yaks have mutated for unknown reasons. Now they are connected with anima trees and therefore received some unique attributes. They are a bit bigger than a regular yaks and have very expensive, insulating and beautiful wool, though they give milk much less frequently. This wool can be used to make incredibly warm and luxurious clothing. \n\nLegends say that an interstellar mogul built his business empire upon selling anima yak wool. \n\nAnima yaks will leave in a few days.</letterText>
+  </IncidentDef>
+
+  <IncidentDef>
+    <defName>AnimaMegaspidersPass</defName>
+    <label>anima megaspiders pass</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>AnimaAnimals.IncidentWorker_AnimaMegaspidersPass</workerClass>
+    <baseChance>0.1</baseChance>
+    <minRefireDays>60</minRefireDays>
+    <letterLabel>Anima megaspiders</letterLabel>
+    <letterText>These extremely rare megaspiders have mutated for unknown reasons. Now they are connected with anima trees, becoming stronger and bigger than regular megaspiders. Anima megaspiders are vicious hunters that are capable of tearing their prey apart. \n\nLegends say that there are anima berries growing under elytras of these insectoids. These berries can significantly enhance one's psychic abilities. \n\nAnima megaspiders will leave in a few days.</letterText>
+  </IncidentDef>
+  
+  <IncidentDef>
+    <defName>AnimaFoxesPass</defName>
+    <label>anima foxes pass</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>AnimaAnimals.IncidentWorker_AnimaFoxesPass</workerClass>
+    <baseChance>0.2</baseChance>
+    <minRefireDays>45</minRefireDays>
+    <letterLabel>Anima foxes</letterLabel>
+    <letterText>These foxes have mutated for unknown reasons. Now they are connected with anima trees, receiving some unique attributes. Anima foxes are gentle and cute creatures, they often nuzzle.\n\nLegends say that their ears work like receivers of psychic waves, which allows foxes to carry heavy things using telekinesis. \n\nAnima foxes will leave in a few days.</letterText>
+  </IncidentDef>
+  
+  <IncidentDef>
+    <defName>AnimaMufffalosPass</defName>
+    <label>anima muffalos pass</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>AnimaAnimals.IncidentWorker_AnimaMuffalosPass</workerClass>
+    <baseChance>0.25</baseChance>
+    <minRefireDays>30</minRefireDays>
+    <letterLabel>Anima muffalos</letterLabel>
+    <letterText>These muffalos have mutated for unknown reasons. Now they are connected with anima trees, becoming much stronger and more resilient than regular muffalos. \n\nMaybe if you manage to tame a couple of them, they will serve well for caravanning purpose as they can carry a lot. \n\nAnima muffalos will leave in a few days.</letterText>
+  </IncidentDef>
+</Defs>

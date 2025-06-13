@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AnimaMuffalo</defName>
+		<label>anima muffalo</label>
+		<description>This muffalo has mutated for unknown reasons. Now it is connected with anima trees, becoming much stronger and resilient than regular muffalos. It can carry a lot due to its huge size.</description>
+		<statBases>
+			<MoveSpeed>4.3</MoveSpeed>
+			<MarketValue>1200</MarketValue>
+			<ComfyTemperatureMin>-65</ComfyTemperatureMin>
+			<ComfyTemperatureMax>55</ComfyTemperatureMax>
+			<Wildness>0.8</Wildness>
+		</statBases>
+		<uiIconScale>1.35</uiIconScale>
+		<tradeability>Sellable</tradeability>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			</li>
+			<li>
+				<label>left hoof</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right hoof</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+			<li Class="CompProperties_Shearable">
+				<woolDef>WoolAnimaMuffalo</woolDef>
+				<shearIntervalDays>25</shearIntervalDays>
+				<woolAmount>100</woolAmount>
+			</li>
+		</comps>
+		<race>
+			<herdAnimal>true</herdAnimal>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<body>QuadrupedAnimalWithHooves</body>
+			<baseBodySize>3.0</baseBodySize>
+			<baseHealthScale>2.0</baseHealthScale>
+			<baseHungerRate>0.9</baseHungerRate>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<leatherDef>Leather_AnimaFur</leatherDef>
+			<gestationPeriodDays>28</gestationPeriodDays>
+			<roamMtbDays>2</roamMtbDays>
+			<trainability>Intermediate</trainability>
+			<packAnimal>true</packAnimal>
+			<lifeExpectancy>20</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.25</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.5</minAge>
+					<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+					<soundDeath>Pawn_Muffalo_Death</soundDeath>
+					<soundCall>Pawn_Muffalo_Call</soundCall>
+					<soundAngry>Pawn_Muffalo_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags inherit="False">
+			<li>AnimaAnimalComunity</li>
+			<li>AnimalExotic</li>
+		</tradeTags>
+	</ThingDef>
+  
+  
+	<PawnKindDef Name="AnimaMuffalo" ParentName="AnimalKindBase">
+		<defName>AnimaMuffalo</defName>
+		<label>anima muffalo</label>
+		<race>AnimaMuffalo</race>
+		<combatPower>100</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1.1</ecoSystemWeight>
+		<wildGroupSize>3~9</wildGroupSize>
+		<lifeStages>
+			<li>
+				<label>anima muffalo calf</label>
+				<labelPlural>muffalo calves</labelPlural>
+				<bodyGraphicData>
+					<texPath>Pawn/AnimaMuffalo/AnimaMuffalo</texPath>
+					<drawSize>2.0</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Muffalo/Dessicated_Muffalo</texPath>
+					<drawSize>2.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Pawn/AnimaMuffalo/AnimaMuffalo</texPath>
+					<drawSize>2.6</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Muffalo/Dessicated_Muffalo</texPath>
+					<drawSize>2.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Pawn/AnimaMuffalo/AnimaMuffalo</texPath>
+					<drawSize>3.4</drawSize>
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Muffalo/Dessicated_Muffalo</texPath>
+					<drawSize>3.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>

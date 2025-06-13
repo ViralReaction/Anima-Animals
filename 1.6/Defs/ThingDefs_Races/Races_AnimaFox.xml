@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AnimaFox</defName>
+		<label>anima fox</label>
+		<description>This fox has mutated for unknown reasons. Now it is connected with anima trees, receiving some unique attributes. Anima fox is a gentle and cute creature, it often nuzzles. \n\nLegends state that its ears work like receivers of psychic waves, which allows this creature to carry heavy things using telekinesis.</description>
+		<statBases>
+			<MoveSpeed>4.8</MoveSpeed>
+			<ComfyTemperatureMin>-60</ComfyTemperatureMin>
+			<MarketValue>1700</MarketValue>
+			<CarryingCapacity>150</CarryingCapacity>
+			<Wildness>0.8</Wildness>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>16</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>16</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.9</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>16</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<predator>true</predator>
+			<meatLabel>anima fox meat</meatLabel>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<maxPreyBodySize>0.80</maxPreyBodySize>
+			<petness>0.1</petness>
+			<baseBodySize>0.55</baseBodySize>
+			<baseHungerRate>0.1</baseHungerRate>
+			<baseHealthScale>0.8</baseHealthScale>
+			<foodType>CarnivoreAnimal</foodType>
+			<leatherDef>Leather_Fox</leatherDef>
+			<nameOnTameChance>1</nameOnTameChance>
+			<trainability>Advanced</trainability>
+			<nuzzleMtbHours>12</nuzzleMtbHours>
+			<gestationPeriodDays>21</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(2.5, 0.7)</li>
+					<li>(3, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>9</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.35</minAge>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimaAnimalComunity</li>
+			<li>AnimalExotic</li>
+		</tradeTags>
+	</ThingDef>
+  
+  
+	<PawnKindDef ParentName="AnimalKindBaseFox">
+		<defName>AnimaFox</defName>
+		<label>anima fox</label>
+		<labelPlural>anima foxes</labelPlural>
+		<race>AnimaFox</race>
+		<combatPower>50</combatPower>
+		<ecoSystemWeight>0.25</ecoSystemWeight>
+		<canArriveManhunter>false</canArriveManhunter>
+		<lifeStages>
+			<li>
+				<label>anima fox puppy</label>
+				<labelPlural>anima fox puppies</labelPlural>
+				<bodyGraphicData>
+					<texPath>Pawn/AnimaFox/AnimaFox</texPath>
+					<drawSize>1.0</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Fox_Fennec/Dessicated_Fox_Fennec</texPath>
+					<drawSize>1.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Pawn/AnimaFox/AnimaFox</texPath>
+					<drawSize>1.2</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Fox_Fennec/Dessicated_Fox_Fennec</texPath>
+					<drawSize>1.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Pawn/AnimaFox/AnimaFox</texPath>
+					<drawSize>1.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Fox_Fennec/Dessicated_Fox_Fennec</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>

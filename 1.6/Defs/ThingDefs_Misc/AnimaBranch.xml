@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AnimaBranch</defName>
+		<label>anima branch</label>
+		<description>A tree sapling sprouted on the back of an anima bear and now removed from there.</description>
+		<graphicData>
+			<texPath>Item/AnimaBranch/AnimaBranch</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>4</drawSize>
+		</graphicData>
+		<uiIconScale>1.0</uiIconScale>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<MaxHitPoints>45</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.2</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+		</statBases>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>5</stackLimit>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<tradeTags>
+			<li>ExoticAnima</li>
+		</tradeTags>
+	</ThingDef>
+  
+</Defs>
