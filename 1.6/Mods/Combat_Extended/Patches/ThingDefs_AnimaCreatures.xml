@@ -249,9 +249,9 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="AnimaWarg"]/race/wildness</xpath>
+		<xpath>Defs/ThingDef[defName="AnimaWarg"]/statBases/Wildness</xpath>
 		<value>
-			<wildness>0.3</wildness>
+			<Wildness>0.3</Wildness>
 		</value>
 	</Operation>
 
@@ -293,9 +293,9 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="AnimaBear"]/race/wildness</xpath>
+		<xpath>Defs/ThingDef[defName="AnimaBear"]/statBases/Wildness</xpath>
 		<value>
-			<wildness>0.6</wildness>
+			<Wildness>0.6</Wildness>
 		</value>
 	</Operation>
 
